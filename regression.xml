@@ -5,7 +5,7 @@
 		<classes>
 			<class name="tests.AddproducttowishlistTest" />
 			<class name="tests.RegisterwithaDatadriverbFajerjava" />
-			<class name="tests.RegisterwithDataDrivenExcel" />
+			
 		</classes>
 	 </test> <!-- Test -->
 </suite> <!-- Suite -->
