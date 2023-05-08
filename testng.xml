@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nocommerce regression suit">
+<parameter name="browser" value="CHROME"></parameter>
+  <test name="Regression Test" preserve-order="false">
+    <classes>
+      <class name="Tests.testregisteruser"/>
+            <class name="Tests.HoverMenuTest"/>
+             <class name="Tests.MyaccountTest"/>
+              <class name="Tests.SearchTest"/>
+               <class name="Tests.SearchProductUsingAutosegesion"/>
+                <class name="Tests.testregisteruser"/>
+                
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

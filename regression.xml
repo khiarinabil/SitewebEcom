@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nocommerce regression suit">
+	<parameter name="browser" value="CHROME" />
+	<test name="RegressionN Test" preserve-order="false">
+		<classes>
+			<class name="tests.AddproducttowishlistTest" />
+			<class name="tests.RegisterwithaDatadriverbFajerjava" />
+			<class name="tests.RegisterwithDataDrivenExcel" />
+		</classes>
+	 </test> <!-- Test -->
+</suite> <!-- Suite -->
