@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nocommerce regression suit" parallel="tests" thread-count="2">
+  <test name="Regression Test" preserve-order="false">
+    <classes>
+    <parameter name="browser" value="CHROME"></parameter>
+      <class name="Tests.MyaccountTestPt"/>         
+    </classes>
+  </test> 
+  
+  <test name="Regression Test" preserve-order="false">
+    <classes>
+    <parameter name="browser" value="firefox"></parameter>
+      <class name="Tests.testregisteruserPT"/>         
+    </classes>
+  </test> 
+  
+</suite> 
