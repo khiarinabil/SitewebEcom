@@ -5,7 +5,7 @@
 		<classes>
 			
 			<class name="tests.RegisterwithaDatadriverbFajerjava" />
-			
+		<class name="tests.ChangeCurruncyTest" />
 		</classes>
 	 </test> <!-- Test -->
 </suite> <!-- Suite -->
