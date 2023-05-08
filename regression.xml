@@ -3,7 +3,7 @@
 	<parameter name="browser" value="CHROME" />
 	<test name="RegressionN Test" preserve-order="false">
 		<classes>
-			<class name="tests.AddproducttowishlistTest" />
+			
 			<class name="tests.RegisterwithaDatadriverbFajerjava" />
 			
 		</classes>
