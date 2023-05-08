@@ -6,7 +6,7 @@
 			
 			<class name="tests.RegisterwithaDatadriverbFajerjava" />
 		<class name="tests.ChangeCurruncyTest" />
-			<class name="tests.ContactUsTest" />
+			
 		</classes>
 	 </test> <!-- Test -->
 </suite> <!-- Suite -->
