@@ -13,7 +13,7 @@ pipeline {
                 git 'https://github.com/khiarinabil/SitewebEcom.git'
 
                 // Run Maven on a Unix agent.
-                sh "mvn  test -Pregression"
+                sh "mvn  clean test -Dtest=Tests\RegisterwithaDatadriverbFajerjava.java"
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
