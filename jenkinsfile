@@ -13,7 +13,7 @@ pipeline {
                 git 'https://github.com/khiarinabil/SitewebEcom.git'
 
                 // Run Maven on a Unix agent.
-                sh "mvn clean test -Pregression"
+                sh "mvn  test -Pregression"
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
@@ -24,7 +24,7 @@ pipeline {
                 // failed, record the test results and archive the jar file.
                 success {
                     junit '**/target/surefire-reports/TEST-*.xml'
-                    archiveArtifacts 'target/*.jar'
+                   
                 }
             }
         }
